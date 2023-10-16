@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="icon" type="image/x-icon" href="/favion/Register.png">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <video id="background-video" autoplay loop muted <source src="Background.mp4" type="video/mp4">
+  </video>
+</head>
+
+<body>
+
+  <body>
+    <div class="wrapper">
+      <form>
+        <h1>Register</h1>
+        <div class="input-box">
+          <input type="text" placeholder="Username" name="username" id="username" required>
+          <i class='bx bxs-user'></i>
+        </div>
+        <div class="input-box">
+          <input type="email" placeholder="Email" name="email" id="email" required>
+          <i class='bx bxs-envelope'></i>
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="Password" name="password" id="password" required>
+          <i class='bx bxs-lock-alt'></i>
+        </div>
+        <div class="input-box">
+            <input type="passwordrepeat" placeholder="Repeat Password" name="passwordrepeat" id="passwordrepeat" required>
+          <i class='bx bxs-lock-alt'></i>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="register-link">
+          <p>Have an account? <a href="index.html">Login</a></p>
+        </div>
+      </form>
+    </div>
+    <script src="register.js"></script>
+  </body>
+
+</html>
